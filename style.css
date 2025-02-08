@@ -1,0 +1,247 @@
+/* Main styling for the theme */
+
+html {
+    font-family:Helvetica;
+    font-size:22px;
+    color:seashell;
+    background-color:black;
+    opacity:0.9;
+}
+
+
+/* Header & nav styling */
+header {
+    position: sticky;
+    top: 0;
+    height: 69px;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav {
+    margin-left:auto;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px; /* Adjust the gap between links as needed */
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+nav a {
+    color: seashell;
+    text-decoration: underline;
+    font-size: 22px; /* Adjust the font size as needed */
+}
+
+/* Upper right logo */
+
+#logo {
+    height:50px;
+    margin: 9.5px 9.5px;
+    margin-left: 10px;
+}
+/* Container for both simplebox and tea of the month to ensure they will align */
+
+.bigassbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*mission background container-image styling */
+
+.simplebox {
+    background-image: url('images/img-mission-background.jpg');
+    background-size: cover;
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto; /* Center the element horizontally */
+    display: flex; /* Flexbox container */
+    justify-content: center; /* Aligns main axis */
+    align-items:center; /* Aligns cross axis */
+}
+
+.textinsimplebox {
+    background-color:black;
+    height: 110px;
+    width: 1200px;
+    display: flex; /* Flexbox container */
+    flex-direction: column; /* Aligns items vertically */
+    justify-content: center; /* Aligns main axis */
+    align-items:center; /* Aligns cross axis */
+}
+
+.textinsimplebox h2,h4 {
+    margin: 5px 0; /* Top and bottom margin control*/
+    display: flex;
+    justify-content: center; /* Aligns main axis */
+    align-items:center; /* Aligns cross axis */
+}
+
+.teaofthemonth {
+    margin-top: 25px;
+    background-color:black;
+    height: 110px;
+    width: 1000px;
+    display: flex; /* Flexbox container */
+    flex-direction: column; /* Aligns items vertically */
+    justify-content: center; /* Aligns main axis */
+    align-items:center; /* Aligns cross axis */
+}
+
+/* 3pics row container styling */  
+
+.threepicsbox {
+    margin-top: 30px;
+    height: 300px;
+    width: 1000px;
+    display: flex; /* Flexbox container */
+    justify-content: space-evenly; /* Aligns main axis */
+    align-items:center; /* Aligns cross axis */
+}
+
+.twopicsbox {
+    margin-top: 0;
+    height: 300px;
+    width: 1000px;
+    display: flex; /* Flexbox container */
+    justify-content: space-evenly; /* Aligns main axis */
+    align-items:center; /* Aligns cross axis */
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#berryblitz {
+    background-image: url('images/img-berryblitz.jpg');
+    background-size: cover;
+}
+
+#spicerum {
+    background-image: url('images/img-spiced-rum.jpg');
+    background-size: cover;
+}
+
+#donut {
+    background-image: url('images/img-donut.jpg');
+    background-size: cover;
+}
+
+#myrtletea {
+    background-image: url('images/img-myrtle-ave.jpg');
+    background-size: cover;
+}
+
+#bedford {
+    background-image: url('images/img-bedford-bizarre.jpg');
+    background-size: cover;
+}
+
+#berryblitz , #spicerum, #donut, #myrtletea, #bedford {
+    height: 200px;
+    width: 300px;
+}
+
+.product-text {
+    margin-top: 10px; /* Adjust the margin as needed */
+    text-align: center;
+
+}
+
+/* Locations section css */
+
+/* This is my location background*/
+
+.locationsback {
+    background-image: url('images/img-locations-background.jpg');
+    background-size: cover;
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto; /* Center the element horizontally */
+    display: flex; /* Flexbox container */ 
+    flex-direction: column; /* Aligns items vertically */
+    justify-content: center; /* Aligns main axis */
+    gap: 10px; /* Space between items */
+    align-items: center; /* Aligns cross axis */
+    padding: 10px;
+}
+
+#locbox {
+    width: 980px;
+    height: 50px;
+    display: flex; /* Flexbox container */
+    justify-content: center; /* Aligns main axis */
+}
+
+#locbox h2 {
+    margin: 5px 0; /* Top and bottom margin control*/
+    display: flex;
+    justify-content: center; /* Aligns main axis */
+    align-items:center; /* Aligns cross axis */
+}
+
+.blackbox {
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    display: flex; /* Flexbox container */
+    flex-direction:column; /* Aligns items vertically */
+    justify-content: space-evenly; /* Aligns main axis */
+    align-items:center; /* Aligns cross axis */
+    text-align:center;
+    opacity: 1;
+}
+
+.blackbox h3 {
+    margin: 0; /* Top and bottom margin control*/
+    display: flex;
+    justify-content: center; /* Aligns main axis */
+    align-items:center; /* Aligns cross axis */
+}
+
+.blackbox h4 {
+    margin: 1; /* Top and bottom margin control*/
+    display: flex;
+    justify-content: center; /* Aligns main axis */
+    align-items:center; /* Aligns cross axis */
+}
+
+.bbhorizontal {
+    display: flex; /* Flexbox container */
+    justify-content: center; /* Aligns main axis */
+    gap: 20px; /* Space between blackbox items */
+}
+
+.beforefooter {
+    margin-top: 20px;
+    height: 200px;
+    display: flex; /* Flexbox container */
+    flex-direction: column; /* Aligns items vertically */
+    justify-content: center; /* Aligns main axis */
+    text-align: center;
+}
+
+footer {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.blackbox .line1 {
+
+    margin-top: 10px;
+}
+
+.blackbox .Portland_ME {
+    margin-bottom: 20px;
+}
